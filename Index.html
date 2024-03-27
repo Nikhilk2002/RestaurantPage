@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasty Dish</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-primary bg-primary text-secondary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#">Tasty Dish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Oders</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Deals
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8yMl9waG90b19vZl9mdWxsX29mX2luZGlhbl9mb29kX3RvcF92aWV3X2ZsYXRfbF9mMmNkNWJlZC05OGJlLTQ2ZmUtOWJlOS1kMTdkMTY0ZmNiODhfMS5qcGc.jpg"
+                    class="slide d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Traditional Food</h5>
+                    <p class="text-warning">Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/download (2).jpeg" class="slide d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Veg option</h5>
+                    <p class="text-warning">Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/image3.jpg" class="slide d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Non-veg Foods</h5>
+                    <p class="text-warning">Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container" id="order">
+        <h1 class="text-center my-5">Order your Food Now</h1>
+        <div class="row my-3">
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/Biriyani1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ChickenBiriyani</h5>
+                        <p class="card-text">Tasty Chicken biriyani with lemon flavour.</p>
+                        <h5 class="card-title text-danger">Rs:140</h5>
+                        <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/porattaBeef.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Poratta&Beef</h5>
+                        <p class="card-text">Multi-Layered Parotta and Beef Fry, Kerala's Best On Your Plate</p>
+                        <h5 class="card-title text-danger">Rs:120</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/BeefBiriyani.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BeefBiriyani</h5>
+                        <p class="card-text">Malabar Style Beef Biriyani, Spicy & hot </p>
+                        <h5 class="card-title text-danger">Rs:179</h5>
+                        <a href="#" class="btn btn-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/meals4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Veg Meals</h5>
+                        <p class="card-text">Kerala style Veg Meals</p>
+                        <h5 class="card-title text-danger">Rs:150</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/Dosha.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Masala Dosha</h5>
+                        <p class="card-text">Kerala style Masala Dosha</p>
+                        <h5 class="card-title text-danger">Rs:60</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem; height: 26rem;">
+                    <img src="Images/puttu.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Puttu</h5>
+                        <p class="card-text">Raggi Puttu</p>
+                        <h5 class="card-title text-danger">Rs:80</h5>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <div class="container-fluid bg-secondary" id="location">
+        <div class="row">
+            <h1 class="text-center">Location</h1>
+            <div class="col-6">
+                <h1 class="text-white">Tasty dishes Restorent</h1>
+                <h4>Perinthalmanna</h4>
+                <h4>Malappuram</h4>
+                <p>Phone:9078324576</p>
+                <p>Email:rastfood@gmail.com</p>
+                <p>www.tastyfood.com</p>
+            </div>
+            <div class="col-6">
+                <iframe class="justify-content-end"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.580325224702!2d76.20205789643815!3d10.978413861149862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7cd48878cef9b%3A0x89b557f0512f391b!2sSoftroniics%20-%20Flutter%2C%20Data%20Science%2C%20MERN%20Stack%2C%20PHP%20Laravel%20training%20Institute%20in%20Kerala!5e0!3m2!1sen!2sin!4v1711530141713!5m2!1sen!2sin"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
